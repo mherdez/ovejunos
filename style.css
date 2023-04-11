@@ -20,13 +20,9 @@ body {
 		'header header header' 10%
 		'screen-left   screen-center screen-rigth' auto
 		/ 25% auto 25%;
-
-	/* gap: 5px; */
-
 }
 
 header {
-  /* background: lightskyblue; */
 	grid-area: header;
   text-align: center;
   font-size: 1.5rem;
@@ -38,11 +34,9 @@ header {
 
 }
 .team1 {
-  /* background: lightcoral; */
 	grid-area: screen-left;
 }
 .main {
-  /* background: lightgoldenrodyellow; */
 	grid-area: screen-center;
   display: flex;
   justify-content: space-around;
@@ -51,7 +45,6 @@ header {
   padding: 0 20px;
 }
 .team2 {
-  /* background: lightgreen; */
 	grid-area: screen-rigth;
 }
 .team1, .team2 {
@@ -68,6 +61,7 @@ header {
   align-items: center;
   font-size: 2.5rem;
   box-shadow: 10px 10px 15px rgba(0,0,0,.6);
+  border-radius: 5px;
 }
 .board{
   width: 100%;
@@ -79,15 +73,13 @@ header {
   margin: 0 auto;
   gap: 20px;
   margin-bottom: 100px;
-  /* border: 5px solid yellow; */
-  /* box-shadow: 10px 10px 15px rgba(0,0,0,.6); */
   height: 300px;
 }
 .equis {
+  border-radius: 5px;
   border: 5px solid black;
   font-size: 10rem;
   font-weight: bold;
-  /* padding: 20px; */
   color: red;
   text-shadow: 0 0 15px black;
   min-height: 200px;
@@ -101,31 +93,33 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0;
+  margin: 15px 0;
+  background-color: rgb(94, 99, 104);
+  padding: 13px 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
 
 }
 .question-text {
   height: 60px;
-  border: 4px solid black;
   width: 80%;
-  font-size: 1.8rem;
+  font-size: 2rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 0 20px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .question-points {
   height: 60px;
-  border: 4px solid black;
   width: 15%;
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.807);
+  border-radius: 3px;
 }
 
-.hidden {
-  opacity: 0;
-}
