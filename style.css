@@ -33,6 +33,9 @@ header {
   align-items: center;
 
 }
+h2 {
+  font-size: 2.5rem;
+}
 .team1 {
 	grid-area: screen-left;
 }
@@ -51,6 +54,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -300px;
 }
 .box, .score{
   width: 200px;
@@ -89,7 +95,7 @@ header {
   align-items: center;
   text-transform: uppercase;
 }
-.question {
+.answer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,7 +106,7 @@ header {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
 
 }
-.question-text {
+.answer-text {
   height: 60px;
   width: 80%;
   font-size: 2rem;
@@ -111,7 +117,7 @@ header {
   font-weight: bold;
   text-transform: uppercase;
 }
-.question-points {
+.answer-points {
   height: 60px;
   width: 15%;
   font-size: 2.5rem;
