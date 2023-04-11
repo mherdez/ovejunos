@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 body {
@@ -105,6 +106,9 @@ h2 {
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
 
+}
+.cursor {
+  cursor: pointer;
 }
 .answer-text {
   height: 60px;
