@@ -105,7 +105,22 @@ h2 {
   padding: 13px 20px;
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
-
+  position: relative;
+  counter-increment: detail-counter;
+}
+.answer::before {
+  content: counter(detail-counter) " ";
+  color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 3%;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
 }
 .cursor {
   cursor: pointer;
@@ -120,6 +135,7 @@ h2 {
   padding: 0 20px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-left: 40px;
 }
 .answer-points {
   height: 60px;

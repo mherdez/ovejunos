@@ -3,7 +3,7 @@
 const answers = [
   {
     id: 1,
-    answer: 'pepitas',
+    answer: 'pepitas pepitas',
     points: 38
   },
   {
